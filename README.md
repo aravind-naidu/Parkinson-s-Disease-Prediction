@@ -9,7 +9,30 @@ Source: [Center for Machine Learning and Intelligent Systems](http://archive.ics
 Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2008), 'Suitability of dysphonia measurements for telemonitoring of Parkinson's disease', IEEE Transactions on Biomedical Engineering (to appear).
 
 ## Model Details:
+Here I have used:
 
+* Logistic Regression
+* Support Vector Classifier
+* Extreme Gradient Boosting
+
+And, used GridSearchCV to hyperparameter tune all of them.
+
+Then used StackingClassifier to Stack all of them into an Ensemble.
+
+Which yielded:
+
+**Accuracy Score 0.9487**
+
+**Classification report:**
+|   |precision|recall|f1-score|support|
+|:---:|:---:|:---:|:---:|:---:|
+|0   |1.00 |     0.71 |     0.83 |        7|
+|1   |0.94|      1.00  |    0.97|        32|
+
+
+## Notebook
+Refere the notebook [Parkinson's Disease Prediction.ipynb]() for the code.
+Also, find the same, [here](https://www.kaggle.com/aravindnaidu/94-acc-predicting-parkinson-s-disease-ensemble) on Kaggle and do support mere there with your upvotes and comments.
 
 ## Attribute Information:
 Matrix column entries (attributes):
