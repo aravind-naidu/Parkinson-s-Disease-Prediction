@@ -31,7 +31,7 @@ Which yielded:
 
 
 ## Notebook
-Refere the notebook [Parkinson's Disease Prediction.ipynb]() for the code.
+Refere the notebook [Parkinson's Disease Prediction.ipynb](https://github.com/aravind-naidu/Parkinson-s-Disease-Prediction/blob/main/Parkinson's%20Disease%20Prediction.ipynb) for the code.
 Also, find the same, [here](https://www.kaggle.com/aravindnaidu/94-acc-predicting-parkinson-s-disease-ensemble) on Kaggle and do support mere there with your upvotes and comments.
 
 ## Attribute Information:
